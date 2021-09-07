@@ -1,0 +1,110 @@
+body{
+	width:950px;
+	/* height:500px; */
+	margin:0 auto;
+	/* border:solid 2px; */
+}
+
+header{
+	position:relative;
+	width:950px;
+	height:120px;
+	background-color:red;
+}
+div#cabecera img.img-prin{}
+.img1{
+	position:relative;
+	z-index:2;
+}
+#trans{
+	position:absolute;
+	bottom:0;
+	width:950px;
+	height:60px;
+	background-color:rgba(0,0,0,0.6);
+}
+#boton{
+	border-radius:5px;
+	position:absolute;
+	bottom:5px;
+	left:5px;
+	width:150px;
+	height:29px;
+	background-image:url("images/red_background.png");
+	background-repeat:repeat-x;
+}
+.texto_boton{
+	position:absolute;
+	top:-15px;
+	color:white;
+	font-size:20px;
+}
+#cabecera{
+	position:relative;
+	width:950px;
+	height:219px;
+	background-color:yellow;
+}
+.img-prin{
+	border-radius:25px;
+}
+.texto_logo{
+	z-index:1;
+	color:yellow;
+	font-size:1.5em;
+	position:absolute;
+	top:10px;
+	left:30px;
+}
+.menu_p{
+	position:absolute;
+	right:20px;
+}
+ul.menu_p li{
+	background-color:yellow;
+	list-style:none;
+    padding:10px;
+	float:left;
+}
+ul.menu_p li:hover{
+	background-color:orange;
+}
+
+section{
+	position:relative;
+	width:950px;
+	height:400px;
+	background-color:blue;
+}
+article{
+	left:20px;
+	position:absolute;
+	width:550px;
+	height:300px;
+	/* background-color:orange; */
+}
+section article p{
+	text-align:justify;
+}
+p.t3{
+	margin-left:20px;
+	text-align:left;
+}
+table{
+	margin:0 auto;
+}
+aside{
+	text-align:center;
+}
+aside{
+	position:absolute;
+	right:20px;
+	width:300px;
+	height:300px;
+	background-color:grey;
+}
+footer{
+	width:950px;
+	height:150px;
+	background-color:green;
+}
